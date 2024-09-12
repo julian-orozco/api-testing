@@ -1,0 +1,31 @@
+2024-09-12 09:09:48.728 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-12 09:09:48.733 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the last created resource
+2024-09-12 09:09:48.733 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-12 09:09:50.907 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 6: 200
+2024-09-12 09:09:51.177 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 7: 200
+2024-09-12 09:09:51.489 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 8: 200
+2024-09-12 09:09:51.741 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 9: 200
+2024-09-12 09:09:52.007 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 10: 200
+2024-09-12 09:09:52.306 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 11: 200
+2024-09-12 09:09:52.565 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 12: 200
+2024-09-12 09:09:52.832 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 13: 200
+2024-09-12 09:09:53.099 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 14: 200
+2024-09-12 09:09:53.366 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 15: 200
+2024-09-12 09:09:53.620 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 16: 200
+2024-09-12 09:09:53.932 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 17: 200
+2024-09-12 09:09:54.224 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 18: 200
+2024-09-12 09:09:54.477 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 19: 200
+2024-09-12 09:09:54.760 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 20: 200
+2024-09-12 09:09:55.041 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 21: 200
+2024-09-12 09:09:55.299 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 22: 200
+2024-09-12 09:09:55.551 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 23: 200
+2024-09-12 09:09:55.836 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 24: 200
+2024-09-12 09:09:56.084 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 25: 200
+2024-09-12 09:09:56.348 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 26: 200
+2024-09-12 09:09:56.602 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 27: 200
+2024-09-12 09:09:56.891 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 28: 200
+2024-09-12 09:09:57.174 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 29: 200
+2024-09-12 09:09:57.419 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 30: 200
+2024-09-12 09:09:57.419 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-12 09:09:57.419 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the last created resource
+2024-09-12 09:09:57.433 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************

@@ -1,0 +1,4 @@
+
+@active @resources
+Scenario: Update the last created resource                                # src/test/resources/features/resource_testing_crud.feature:31
+  Given I send a DELETE request to delete resources with IDs from 6 to 30 # com.testing.api.stepDefinitions.ResourceSteps.iSendADELETERequestToDeleteResourcesWithIDsFromIntToInt(int,int)
