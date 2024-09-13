@@ -12,6 +12,9 @@ import org.junit.Assert;
 
 import java.util.List;
 
+/**
+ * The type Resource steps.
+ */
 public class ResourceSteps {
     private static final Logger logger = LogManager.getLogger(ResourceSteps.class);
 
@@ -20,8 +23,13 @@ public class ResourceSteps {
     private Response response;
     private Resource resource;
 
+    /**
+     * There is at least 10 active resources.
+     *
+     * @param num the num
+     */
     @When("there is at least {int} active resources")
-    public void iSendAGETRequestToViewAllTheClient(int num) {
+    public void thereIsAtLeastActiveResources(int num) {
         response = resourceRequest.getResources();
         List<Resource> resources = resourceRequest.getResourcesEntity(response);
         resources.forEach(logger::info);
@@ -39,6 +47,11 @@ public class ResourceSteps {
         }
     }
 
+    /**
+     * Send a put request to update the last resource.
+     *
+     * @param requestBody the request body
+     */
     @When("I send a PUT request to update the last resource")
     public void iSendAPUTRequestToUpdateTheLastResource(String requestBody) {
         response = resourceRequest.getResources();
@@ -59,6 +72,12 @@ public class ResourceSteps {
 
     }
 
+    /**
+     * Send a delete request to delete resources with IDs from {int} to {int}.
+     *
+     * @param startId the start id
+     * @param endId   the end id
+     */
     @Then("I send a DELETE request to delete resources with IDs from {int} to {int}")
     public void iSendADELETERequestToDeleteResourcesWithIDsFromIntToInt(int startId, int endId) {
         for (int resourceId = startId; resourceId <= endId; resourceId++) {
@@ -68,6 +87,9 @@ public class ResourceSteps {
         }
     }
 
+    /**
+     * Send a put request to update all active resources.
+     */
     @Then("I send a PUT request to update all active resources")
     public void iSendAPUTRequestToUpdateAllActiveResources() {
         response = resourceRequest.getResources();
@@ -91,11 +113,19 @@ public class ResourceSteps {
         }
     }
 
+    /**
+     * The response should have a status code of {int}.
+     *
+     * @param statusCode the status code
+     */
     @Then("the resource response should have a status code of {int}")
     public void theResponseShouldHaveAStatusCodeOf(int statusCode) {
         Assert.assertEquals(statusCode, response.statusCode());
     }
 
+    /**
+     * Validates the response with resource json schema.
+     */
     @Then("validates the response with resource JSON schema")
     public void validatesTheResponseWithResourceJSONSchema() {
         String path = "schemas/resourceSchema.json";
