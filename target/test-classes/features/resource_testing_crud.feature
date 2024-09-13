@@ -24,9 +24,5 @@ Feature: Resource testing CRUD
     }
     """
     Then the resource response should have a status code of 200
+    And validates the response with resource JSON schema
     And I send a DELETE request to delete resources with IDs from 1 to 15
-
-
-  @resources
-  Scenario: Update the last created resource
-    Given I send a DELETE request to delete resources with IDs from 6 to 30

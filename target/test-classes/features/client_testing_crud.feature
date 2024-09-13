@@ -17,6 +17,7 @@ Feature: Client testing CRUD
     }
     """
     Then the response should have a status code of 200
+    And validates the response with client JSON schema
     And I send a DELETE request to delete clients with IDs from 1 to 10
 
 

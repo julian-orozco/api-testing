@@ -107,6 +107,13 @@ public class ClientSteps {
     public void iSendAPUTRequestToUpdateTheClientWithID(String clientId, String requestBody) {
         client = clientRequest.getClientEntity(requestBody);
         response = clientRequest.updateClient(client, clientId);
+        Client posclient = clientRequest.getClientEntity(response);
+        Assert.assertEquals(posclient.getName(), client.getName());
+        Assert.assertEquals(posclient.getLastName(), client.getLastName());
+        Assert.assertEquals(posclient.getCountry(), client.getCountry());
+        Assert.assertEquals(posclient.getCity(), client.getCity());
+        Assert.assertEquals(posclient.getEmail(), client.getEmail());
+        Assert.assertEquals(posclient.getPhone(), client.getPhone());
     }
 
     @When("I send a PUT request to update the client")

@@ -1,4 +1,31 @@
 
-@active @resources
-Scenario: Update the last created resource                                # src/test/resources/features/resource_testing_crud.feature:31
-  Given I send a DELETE request to delete resources with IDs from 6 to 30 # com.testing.api.stepDefinitions.ResourceSteps.iSendADELETERequestToDeleteResourcesWithIDsFromIntToInt(int,int)
+@active @smoke
+Scenario: Change the phone number of the first Client named Laura     # src/test/resources/features/client_testing_crud.feature:5
+  Given I send a POST request to create 9 random clients              # com.testing.api.stepDefinitions.ClientSteps.iSendAPOSTRequestToCreateRandomClients(int)
+  And I send a POST request to create a client with name Laura        # com.testing.api.stepDefinitions.ClientSteps.iSendAPOSTRequestToCreateAClientWithNameLaura()
+  When I send a PUT request to update the client with ID "10"         # com.testing.api.stepDefinitions.ClientSteps.iSendAPUTRequestToUpdateTheClientWithID(java.lang.String,java.lang.String)
+  Then the response should have a status code of 200                  # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And validates the response with client JSON schema                  # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithClientJSONSchema()
+  And I send a DELETE request to delete clients with IDs from 1 to 10 # com.testing.api.stepDefinitions.ClientSteps.iSendADELETERequestToDeleteClientsWithIDsFromTo(int,int)
+
+@active @smoke
+Scenario: Update and delete a New Client                             # src/test/resources/features/client_testing_crud.feature:25
+  Given I send a POST request to create 1 random clients             # com.testing.api.stepDefinitions.ClientSteps.iSendAPOSTRequestToCreateRandomClients(int)
+  When I send a PUT request to update the client with ID "1"         # com.testing.api.stepDefinitions.ClientSteps.iSendAPUTRequestToUpdateTheClientWithID(java.lang.String,java.lang.String)
+  Then the response should have a status code of 200                 # com.testing.api.stepDefinitions.ClientSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And validates the response with client JSON schema                 # com.testing.api.stepDefinitions.ClientSteps.userValidatesResponseWithClientJSONSchema()
+  And I send a DELETE request to delete clients with IDs from 1 to 1 # com.testing.api.stepDefinitions.ClientSteps.iSendADELETERequestToDeleteClientsWithIDsFromTo(int,int)
+
+@active @smoke
+Scenario: Get the list of active resources                             # src/test/resources/features/resource_testing_crud.feature:5
+  Given there is at least 5 active resources                           # com.testing.api.stepDefinitions.ResourceSteps.iSendAGETRequestToViewAllTheClient(int)
+  Then I send a PUT request to update all active resources             # com.testing.api.stepDefinitions.ResourceSteps.iSendAPUTRequestToUpdateAllActiveResources()
+  And I send a DELETE request to delete resources with IDs from 1 to 5 # com.testing.api.stepDefinitions.ResourceSteps.iSendADELETERequestToDeleteResourcesWithIDsFromIntToInt(int,int)
+
+@active @smoke
+Scenario: Update the last created resource                              # src/test/resources/features/resource_testing_crud.feature:11
+  Given there is at least 15 active resources                           # com.testing.api.stepDefinitions.ResourceSteps.iSendAGETRequestToViewAllTheClient(int)
+  When I send a PUT request to update the last resource                 # com.testing.api.stepDefinitions.ResourceSteps.iSendAPUTRequestToUpdateTheLastResource(java.lang.String)
+  Then the resource response should have a status code of 200           # com.testing.api.stepDefinitions.ResourceSteps.theResponseShouldHaveAStatusCodeOf(int)
+  And validates the response with resource JSON schema                  # com.testing.api.stepDefinitions.ResourceSteps.validatesTheResponseWithResourceJSONSchema()
+  And I send a DELETE request to delete resources with IDs from 1 to 15 # com.testing.api.stepDefinitions.ResourceSteps.iSendADELETERequestToDeleteResourcesWithIDsFromIntToInt(int,int)

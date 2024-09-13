@@ -1,31 +1,110 @@
-2024-09-12 09:09:48.728 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
-2024-09-12 09:09:48.733 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the last created resource
-2024-09-12 09:09:48.733 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
-2024-09-12 09:09:50.907 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 6: 200
-2024-09-12 09:09:51.177 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 7: 200
-2024-09-12 09:09:51.489 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 8: 200
-2024-09-12 09:09:51.741 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 9: 200
-2024-09-12 09:09:52.007 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 10: 200
-2024-09-12 09:09:52.306 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 11: 200
-2024-09-12 09:09:52.565 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 12: 200
-2024-09-12 09:09:52.832 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 13: 200
-2024-09-12 09:09:53.099 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 14: 200
-2024-09-12 09:09:53.366 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 15: 200
-2024-09-12 09:09:53.620 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 16: 200
-2024-09-12 09:09:53.932 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 17: 200
-2024-09-12 09:09:54.224 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 18: 200
-2024-09-12 09:09:54.477 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 19: 200
-2024-09-12 09:09:54.760 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 20: 200
-2024-09-12 09:09:55.041 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 21: 200
-2024-09-12 09:09:55.299 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 22: 200
-2024-09-12 09:09:55.551 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 23: 200
-2024-09-12 09:09:55.836 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 24: 200
-2024-09-12 09:09:56.084 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 25: 200
-2024-09-12 09:09:56.348 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 26: 200
-2024-09-12 09:09:56.602 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 27: 200
-2024-09-12 09:09:56.891 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 28: 200
-2024-09-12 09:09:57.174 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 29: 200
-2024-09-12 09:09:57.419 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 30: 200
-2024-09-12 09:09:57.419 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
-2024-09-12 09:09:57.419 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the last created resource
-2024-09-12 09:09:57.433 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 13:30:43.137 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 13:30:43.137 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Change the phone number of the first Client named Laura
+2024-09-13 13:30:43.137 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 13:30:46.433 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:46.758 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:47.048 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:47.383 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:47.699 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:47.984 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:48.241 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:48.560 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:48.840 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:49.175 INFO [api.stepDefinitions.ClientSteps:70] - 201
+2024-09-13 13:30:49.860 INFO [api.stepDefinitions.ClientSteps:166] - Successfully Validated schema from Client object
+2024-09-13 13:30:50.124 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 1: 200
+2024-09-13 13:30:50.375 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 2: 200
+2024-09-13 13:30:50.634 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 3: 200
+2024-09-13 13:30:50.915 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 4: 200
+2024-09-13 13:30:51.151 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 5: 200
+2024-09-13 13:30:51.449 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 6: 200
+2024-09-13 13:30:51.724 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 7: 200
+2024-09-13 13:30:52.004 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 8: 200
+2024-09-13 13:30:52.230 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 9: 200
+2024-09-13 13:30:52.483 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 10: 200
+2024-09-13 13:30:52.491 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 13:30:52.491 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Change the phone number of the first Client named Laura
+2024-09-13 13:30:52.491 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 13:30:52.510 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 13:30:52.510 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update and delete a New Client
+2024-09-13 13:30:52.510 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 13:30:52.759 INFO [api.stepDefinitions.ClientSteps:62] - 201
+2024-09-13 13:30:53.069 INFO [api.stepDefinitions.ClientSteps:166] - Successfully Validated schema from Client object
+2024-09-13 13:30:53.306 INFO [api.stepDefinitions.ClientSteps:101] - Deleted client with ID 1: 200
+2024-09-13 13:30:53.322 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 13:30:53.322 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update and delete a New Client
+2024-09-13 13:30:53.323 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 13:30:53.336 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 13:30:53.336 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Get the list of active resources
+2024-09-13 13:30:53.338 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 13:30:53.972 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:54.227 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:54.451 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:54.690 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:54.914 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:55.520 INFO [api.stepDefinitions.ResourceSteps:84] - Updated resource: 1
+2024-09-13 13:30:55.545 INFO [api.stepDefinitions.ResourceSteps:90] - Successfully Validated schema from Resource object
+2024-09-13 13:30:55.815 INFO [api.stepDefinitions.ResourceSteps:84] - Updated resource: 2
+2024-09-13 13:30:55.845 INFO [api.stepDefinitions.ResourceSteps:90] - Successfully Validated schema from Resource object
+2024-09-13 13:30:56.092 INFO [api.stepDefinitions.ResourceSteps:84] - Updated resource: 3
+2024-09-13 13:30:56.104 INFO [api.stepDefinitions.ResourceSteps:90] - Successfully Validated schema from Resource object
+2024-09-13 13:30:56.313 INFO [api.stepDefinitions.ResourceSteps:84] - Updated resource: 4
+2024-09-13 13:30:56.324 INFO [api.stepDefinitions.ResourceSteps:90] - Successfully Validated schema from Resource object
+2024-09-13 13:30:56.564 INFO [api.stepDefinitions.ResourceSteps:84] - Updated resource: 5
+2024-09-13 13:30:56.588 INFO [api.stepDefinitions.ResourceSteps:90] - Successfully Validated schema from Resource object
+2024-09-13 13:30:56.866 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 1: 200
+2024-09-13 13:30:57.087 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 2: 200
+2024-09-13 13:30:57.308 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 3: 200
+2024-09-13 13:30:57.568 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 4: 200
+2024-09-13 13:30:57.888 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 5: 200
+2024-09-13 13:30:57.888 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 13:30:57.888 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Get the list of active resources
+2024-09-13 13:30:57.888 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************
+2024-09-13 13:30:57.912 INFO [api.stepDefinitions.Hooks:16] - *****************************************************************************************
+2024-09-13 13:30:57.912 INFO [api.stepDefinitions.Hooks:17] - 	Scenario: Update the last created resource
+2024-09-13 13:30:57.914 INFO [api.stepDefinitions.Hooks:18] - *****************************************************************************************
+2024-09-13 13:30:58.461 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:58.754 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:58.965 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:59.236 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:59.489 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:59.728 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:30:59.997 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:31:00.217 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:31:00.476 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:31:00.752 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:31:01.034 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:31:01.306 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:31:01.567 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:31:01.849 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:31:02.107 INFO [api.stepDefinitions.ResourceSteps:36] - 201
+2024-09-13 13:31:02.357 INFO [api.stepDefinitions.ResourceSteps:51] - Last resource ID: 15
+2024-09-13 13:31:02.357 INFO [api.stepDefinitions.ResourceSteps:54] - Request Body: {
+  "name": "Awesome Tuna",
+  "trademark": "M",
+  "stock": 1234,
+  "price": 5.6,
+  "description": "Nulla non eros euismod, eleifend nibh a, efficitur arcu. Nam dapibus erat a turpis blandit tincidunt. In est massa, tristique in magna quis, dignissim ornare nisi",
+  "tags": "food",
+  "active": false,
+  "id":15
+}
+2024-09-13 13:31:02.628 INFO [api.stepDefinitions.ResourceSteps:103] - Successfully Validated schema from Resource object
+2024-09-13 13:31:02.872 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 1: 200
+2024-09-13 13:31:03.125 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 2: 200
+2024-09-13 13:31:03.419 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 3: 200
+2024-09-13 13:31:03.645 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 4: 200
+2024-09-13 13:31:03.910 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 5: 200
+2024-09-13 13:31:04.157 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 6: 200
+2024-09-13 13:31:04.435 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 7: 200
+2024-09-13 13:31:04.663 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 8: 200
+2024-09-13 13:31:04.925 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 9: 200
+2024-09-13 13:31:05.160 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 10: 200
+2024-09-13 13:31:05.370 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 11: 200
+2024-09-13 13:31:05.655 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 12: 200
+2024-09-13 13:31:05.942 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 13: 200
+2024-09-13 13:31:06.190 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 14: 200
+2024-09-13 13:31:06.466 INFO [api.stepDefinitions.ResourceSteps:66] - Deleted resource with ID 15: 200
+2024-09-13 13:31:06.466 INFO [api.stepDefinitions.Hooks:24] - *****************************************************************************************
+2024-09-13 13:31:06.470 INFO [api.stepDefinitions.Hooks:25] - 	Scenario finished: Update the last created resource
+2024-09-13 13:31:06.470 INFO [api.stepDefinitions.Hooks:26] - *****************************************************************************************

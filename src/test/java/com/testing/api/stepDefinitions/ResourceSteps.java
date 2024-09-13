@@ -96,5 +96,10 @@ public class ResourceSteps {
         Assert.assertEquals(statusCode, response.statusCode());
     }
 
-
+    @Then("validates the response with resource JSON schema")
+    public void validatesTheResponseWithResourceJSONSchema() {
+        String path = "schemas/resourceSchema.json";
+        Assert.assertTrue(resourceRequest.validateSchema(response, path));
+        logger.info("Successfully Validated schema from Resource object");
+    }
 }
